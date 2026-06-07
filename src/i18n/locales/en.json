@@ -1,0 +1,85 @@
+{
+  "globe": {
+    "loading": "Hoisting sails...",
+    "emptyTitle": "Charting Global Currents",
+    "emptySubtitle": "Set sail to discover news from every port of call",
+    "currentPort": "Current Port",
+    "localTime": "Local time:",
+    "hint": "Drag to navigate • Scroll to zoom • Click to discover"
+  },
+  "context": {
+    "shipsLog": "Ship's Log",
+    "discovery": "Discovery",
+    "intelligence": "Intelligence",
+    "articles": "{{count}} articles",
+    "article": "{{count}} article",
+    "fetching": "Fetching news for {{name}}...",
+    "noStories": "No stories available for this location yet.",
+    "tryAnother": "Try another region or topic",
+    "newsUnavailable": "News unavailable: {{error}}",
+    "liveUnavailable": "Live news unavailable. Showing background intelligence instead.",
+    "analysis": "Analysis",
+    "impact": "{{impact}} impact",
+    "readFull": "Read full story",
+    "moreStories": "More Stories",
+    "additionalHeadlines": "Additional Headlines",
+    "context": "Context",
+    "storyOngoing": "This story is part of ongoing developments in the region. Follow for updates as the situation evolves.",
+    "stayInformed": "Stay informed with curated updates from trusted sources worldwide.",
+    "pagination": "{{current}} of {{total}}",
+    "firstPort": "First port",
+    "quickChart": "Quick chart:",
+    "newArticle": "{{count}} new article",
+    "newArticles": "{{count}} new articles",
+    "savePort": "Save this port",
+    "removePort": "Remove from saved ports",
+    "translate": "Translate",
+    "translating": "Translating...",
+    "close": "Close panel",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "search": {
+    "placeholder": "Chart a course...",
+    "noResults": "No port found for \"{{query}}\"",
+    "exploreNews": "Explore news for \"{{query}}\"",
+    "region": "region",
+    "country": "country"
+  },
+  "trending": {
+    "tradeWinds": "Trade Winds",
+    "ports": "Ports",
+    "saved": "Saved ({{count}})",
+    "toggleSaved": "Toggle saved ports",
+    "world": "World",
+    "technology": "Technology",
+    "business": "Business",
+    "health": "Health",
+    "sports": "Sports",
+    "science": "Science"
+  },
+  "app": {
+    "setSail": "Set Sail",
+    "setSailTitle": "Set sail for a random destination",
+    "exportLog": "Export Log",
+    "exportLogTitle": "Download voyage log",
+    "chartYourCourse": "Chart your course",
+    "footer": "Caravels — Navigating the world's news",
+    "chartModeOn": "Switch to modern view",
+    "chartModeOff": "Switch to nautical chart view"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "message": "An unexpected error occurred",
+    "reload": "Reload page"
+  },
+  "time": {
+    "justNow": "Just now",
+    "minutesAgo": "{{count}}m ago",
+    "hoursAgo": "{{count}}h ago",
+    "daysAgo": "{{count}}d ago"
+  },
+  "lang": {
+    "switch": "Change language"
+  }
+}

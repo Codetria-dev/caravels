@@ -1,0 +1,85 @@
+{
+  "globe": {
+    "loading": "पाल उठाई जा रही है...",
+    "emptyTitle": "वैश्विक धाराओं का मानचित्रण",
+    "emptySubtitle": "हर बंदरगाह से समाचार खोजने के लिए रवाना हों",
+    "currentPort": "वर्तमान बंदरगाह",
+    "localTime": "स्थानीय समय:",
+    "hint": "नेविगेट करने के लिए खींचें • ज़ूम के लिए स्क्रॉल करें • खोजने के लिए क्लिक करें"
+  },
+  "context": {
+    "shipsLog": "जहाज़ का लॉग",
+    "discovery": "खोज",
+    "intelligence": "खुफिया जानकारी",
+    "articles": "{{count}} लेख",
+    "article": "{{count}} लेख",
+    "fetching": "{{name}} के लिए समाचार लाया जा रहा है...",
+    "noStories": "इस स्थान के लिए अभी तक कोई कहानी उपलब्ध नहीं है।",
+    "tryAnother": "कोई अन्य क्षेत्र या विषय आज़माएं",
+    "newsUnavailable": "समाचार अनुपलब्ध: {{error}}",
+    "liveUnavailable": "लाइव समाचार अनुपलब्ध। पृष्ठभूमि खुफिया जानकारी दिखाई जा रही है।",
+    "analysis": "विश्लेषण",
+    "impact": "{{impact}} प्रभाव",
+    "readFull": "पूरी कहानी पढ़ें",
+    "moreStories": "और कहानियाँ",
+    "additionalHeadlines": "अतिरिक्त सुर्खियाँ",
+    "context": "संदर्भ",
+    "storyOngoing": "यह कहानी क्षेत्र में चल रहे घटनाक्रम का हिस्सा है। स्थिति के विकसित होने पर अपडेट के लिए बने रहें।",
+    "stayInformed": "दुनिया भर के विश्वसनीय स्रोतों से चुनिंदा अपडेट के साथ सूचित रहें।",
+    "pagination": "{{total}} में से {{current}}",
+    "firstPort": "पहला बंदरगाह",
+    "quickChart": "त्वरित चार्ट:",
+    "newArticle": "{{count}} नया लेख",
+    "newArticles": "{{count}} नए लेख",
+    "savePort": "इस बंदरगाह को सहेजें",
+    "removePort": "सहेजे गए बंदरगाहों से हटाएं",
+    "translate": "अनुवाद करें",
+    "translating": "अनुवाद हो रहा है...",
+    "close": "पैनल बंद करें",
+    "previous": "पिछला",
+    "next": "अगला"
+  },
+  "search": {
+    "placeholder": "मार्ग तय करें...",
+    "noResults": "\"{{query}}\" के लिए कोई बंदरगाह नहीं मिला",
+    "exploreNews": "\"{{query}}\" के लिए समाचार खोजें",
+    "region": "क्षेत्र",
+    "country": "देश"
+  },
+  "trending": {
+    "tradeWinds": "व्यापारिक हवाएं",
+    "ports": "बंदरगाह",
+    "saved": "सहेजे गए ({{count}})",
+    "toggleSaved": "सहेजे गए बंदरगाह दिखाएं",
+    "world": "विश्व",
+    "technology": "प्रौद्योगिकी",
+    "business": "व्यापार",
+    "health": "स्वास्थ्य",
+    "sports": "खेल",
+    "science": "विज्ञान"
+  },
+  "app": {
+    "setSail": "रवाना हों",
+    "setSailTitle": "किसी यादृच्छिक गंतव्य के लिए रवाना हों",
+    "exportLog": "लॉग निर्यात करें",
+    "exportLogTitle": "यात्रा लॉग डाउनलोड करें",
+    "chartYourCourse": "अपना मार्ग तय करें",
+    "footer": "Caravels — दुनिया की खबरों का नेविगेशन",
+    "chartModeOn": "आधुनिक दृश्य पर स्विच करें",
+    "chartModeOff": "नॉटिकल चार्ट पर स्विच करें"
+  },
+  "error": {
+    "title": "कुछ गलत हो गया",
+    "message": "एक अनपेक्षित त्रुटि हुई",
+    "reload": "पेज पुनः लोड करें"
+  },
+  "time": {
+    "justNow": "अभी अभी",
+    "minutesAgo": "{{count}} मिनट पहले",
+    "hoursAgo": "{{count}} घंटे पहले",
+    "daysAgo": "{{count}} दिन पहले"
+  },
+  "lang": {
+    "switch": "भाषा बदलें"
+  }
+}

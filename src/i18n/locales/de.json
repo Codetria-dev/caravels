@@ -1,0 +1,85 @@
+{
+  "globe": {
+    "loading": "Segel werden gehisst...",
+    "emptyTitle": "Globale Strömungen kartieren",
+    "emptySubtitle": "Stechen Sie in See, um Nachrichten aus jedem Hafen zu entdecken",
+    "currentPort": "Aktueller Hafen",
+    "localTime": "Ortszeit:",
+    "hint": "Ziehen zum Navigieren • Scrollen zum Zoomen • Klicken zum Entdecken"
+  },
+  "context": {
+    "shipsLog": "Schiffslogbuch",
+    "discovery": "Entdeckung",
+    "intelligence": "Aufklärung",
+    "articles": "{{count}} Artikel",
+    "article": "{{count}} Artikel",
+    "fetching": "Nachrichten werden für {{name}} abgerufen...",
+    "noStories": "Noch keine Geschichten für diesen Ort verfügbar.",
+    "tryAnother": "Versuchen Sie eine andere Region oder ein anderes Thema",
+    "newsUnavailable": "Nachrichten nicht verfügbar: {{error}}",
+    "liveUnavailable": "Live-Nachrichten nicht verfügbar. Zeige Hintergrundinformationen.",
+    "analysis": "Analyse",
+    "impact": "Auswirkung {{impact}}",
+    "readFull": "Ganzen Artikel lesen",
+    "moreStories": "Weitere Geschichten",
+    "additionalHeadlines": "Weitere Schlagzeilen",
+    "context": "Kontext",
+    "storyOngoing": "Diese Geschichte ist Teil der laufenden Entwicklungen in der Region. Verfolgen Sie die Aktualisierungen, während sich die Situation entwickelt.",
+    "stayInformed": "Bleiben Sie informiert mit kuratierten Updates aus vertrauenswürdigen Quellen weltweit.",
+    "pagination": "{{current}} von {{total}}",
+    "firstPort": "Erster Hafen",
+    "quickChart": "Schnellkarte:",
+    "newArticle": "{{count}} neuer Artikel",
+    "newArticles": "{{count}} neue Artikel",
+    "savePort": "Diesen Hafen speichern",
+    "removePort": "Aus gespeicherten Häfen entfernen",
+    "translate": "Übersetzen",
+    "translating": "Übersetze...",
+    "close": "Panel schließen",
+    "previous": "Zurück",
+    "next": "Weiter"
+  },
+  "search": {
+    "placeholder": "Kurs festlegen...",
+    "noResults": "Kein Hafen gefunden für \"{{query}}\"",
+    "exploreNews": "Nachrichten für \"{{query}}\" erkunden",
+    "region": "Region",
+    "country": "Land"
+  },
+  "trending": {
+    "tradeWinds": "Passatwinde",
+    "ports": "Häfen",
+    "saved": "Gespeichert ({{count}})",
+    "toggleSaved": "Gespeicherte Häfen anzeigen",
+    "world": "Welt",
+    "technology": "Technologie",
+    "business": "Wirtschaft",
+    "health": "Gesundheit",
+    "sports": "Sport",
+    "science": "Wissenschaft"
+  },
+  "app": {
+    "setSail": "In See stechen",
+    "setSailTitle": "Zu einem zufälligen Ziel aufbrechen",
+    "exportLog": "Logbuch exportieren",
+    "exportLogTitle": "Reiselogbuch herunterladen",
+    "chartYourCourse": "Bestimmen Sie Ihren Kurs",
+    "footer": "Caravels — Die Nachrichten der Welt navigieren",
+    "chartModeOn": "Zur modernen Ansicht wechseln",
+    "chartModeOff": "Zur Seekarte wechseln"
+  },
+  "error": {
+    "title": "Etwas ist schief gelaufen",
+    "message": "Ein unerwarteter Fehler ist aufgetreten",
+    "reload": "Seite neu laden"
+  },
+  "time": {
+    "justNow": "Gerade jetzt",
+    "minutesAgo": "vor {{count}} Min.",
+    "hoursAgo": "vor {{count}} Std.",
+    "daysAgo": "vor {{count}} Tagen"
+  },
+  "lang": {
+    "switch": "Sprache ändern"
+  }
+}

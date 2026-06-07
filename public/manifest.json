@@ -1,0 +1,17 @@
+{
+  "name": "Caravels — Navigate Global News",
+  "short_name": "Caravels",
+  "description": "Discover news from every port of call around the world",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

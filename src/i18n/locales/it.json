@@ -1,0 +1,85 @@
+{
+  "globe": {
+    "loading": "Issando le vele...",
+    "emptyTitle": "Tracciando le Correnti Globali",
+    "emptySubtitle": "Salpa per scoprire notizie da ogni porto di scalo",
+    "currentPort": "Porto Attuale",
+    "localTime": "Ora locale:",
+    "hint": "Trascina per navigare • Scorri per zoomare • Clicca per scoprire"
+  },
+  "context": {
+    "shipsLog": "Giornale di Bordo",
+    "discovery": "Scoperta",
+    "intelligence": "Intelligence",
+    "articles": "{{count}} articoli",
+    "article": "{{count}} articolo",
+    "fetching": "Recupero notizie per {{name}}...",
+    "noStories": "Nessuna storia disponibile per questa località.",
+    "tryAnother": "Prova un'altra regione o argomento",
+    "newsUnavailable": "Notizie non disponibili: {{error}}",
+    "liveUnavailable": "Notizie in diretta non disponibili. Mostrando intelligence di base.",
+    "analysis": "Analisi",
+    "impact": "Impatto {{impact}}",
+    "readFull": "Leggi l'articolo completo",
+    "moreStories": "Altre Storie",
+    "additionalHeadlines": "Titoli Aggiuntivi",
+    "context": "Contesto",
+    "storyOngoing": "Questa storia fa parte degli sviluppi in corso nella regione. Segui gli aggiornamenti man mano che la situazione evolve.",
+    "stayInformed": "Rimani informato con aggiornamenti curati da fonti affidabili in tutto il mondo.",
+    "pagination": "{{current}} di {{total}}",
+    "firstPort": "Primo porto",
+    "quickChart": "Carta rapida:",
+    "newArticle": "{{count}} nuovo articolo",
+    "newArticles": "{{count}} nuovi articoli",
+    "savePort": "Salva questo porto",
+    "removePort": "Rimuovi dai porti salvati",
+    "translate": "Traduci",
+    "translating": "Traducendo...",
+    "close": "Chiudi pannello",
+    "previous": "Precedente",
+    "next": "Successivo"
+  },
+  "search": {
+    "placeholder": "Traccia una rotta...",
+    "noResults": "Nessun porto trovato per \"{{query}}\"",
+    "exploreNews": "Esplora notizie per \"{{query}}\"",
+    "region": "regione",
+    "country": "paese"
+  },
+  "trending": {
+    "tradeWinds": "Alisei",
+    "ports": "Porti",
+    "saved": "Salvati ({{count}})",
+    "toggleSaved": "Mostra porti salvati",
+    "world": "Mondo",
+    "technology": "Tecnologia",
+    "business": "Affari",
+    "health": "Salute",
+    "sports": "Sport",
+    "science": "Scienza"
+  },
+  "app": {
+    "setSail": "Salpare",
+    "setSailTitle": "Salpare verso una destinazione casuale",
+    "exportLog": "Esporta Diario",
+    "exportLogTitle": "Scarica il diario di bordo",
+    "chartYourCourse": "Traccia la tua rotta",
+    "footer": "Caravels — Navigando le notizie del mondo",
+    "chartModeOn": "Passa alla vista moderna",
+    "chartModeOff": "Passa alla carta nautica"
+  },
+  "error": {
+    "title": "Qualcosa è andato storto",
+    "message": "Si è verificato un errore imprevisto",
+    "reload": "Ricarica pagina"
+  },
+  "time": {
+    "justNow": "Proprio ora",
+    "minutesAgo": "{{count}}min fa",
+    "hoursAgo": "{{count}}h fa",
+    "daysAgo": "{{count}}gg fa"
+  },
+  "lang": {
+    "switch": "Cambia lingua"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "globe": {
+    "loading": "帆を揚げています...",
+    "emptyTitle": "世界の潮流を描く",
+    "emptySubtitle": "各寄港地からニュースを発見するために出航しましょう",
+    "currentPort": "現在の港",
+    "localTime": "現地時間：",
+    "hint": "ドラッグで移動 • スクロールでズーム • クリックで発見"
+  },
+  "context": {
+    "shipsLog": "航海日誌",
+    "discovery": "発見",
+    "intelligence": "情報",
+    "articles": "{{count}}件の記事",
+    "article": "{{count}}件の記事",
+    "fetching": "{{name}}のニュースを取得中...",
+    "noStories": "この場所の記事はまだありません。",
+    "tryAnother": "別の地域またはトピックをお試しください",
+    "newsUnavailable": "ニュースを利用できません：{{error}}",
+    "liveUnavailable": "ライブニュースは利用できません。背景情報を表示しています。",
+    "analysis": "分析",
+    "impact": "影響度 {{impact}}",
+    "readFull": "全文を読む",
+    "moreStories": "その他の記事",
+    "additionalHeadlines": "追加の見出し",
+    "context": "背景",
+    "storyOngoing": "この記事は地域での進行中の展開の一部です。状況の変化に応じて最新情報をお届けします。",
+    "stayInformed": "世界中の信頼できるソースからの厳選された最新情報で情報を入手してください。",
+    "pagination": "{{total}}件中{{current}}件目",
+    "firstPort": "最初の港",
+    "quickChart": "クイックチャート：",
+    "newArticle": "{{count}}件の新しい記事",
+    "newArticles": "{{count}}件の新しい記事",
+    "savePort": "この港を保存",
+    "removePort": "保存した港から削除",
+    "translate": "翻訳",
+    "translating": "翻訳中...",
+    "close": "パネルを閉じる",
+    "previous": "前へ",
+    "next": "次へ"
+  },
+  "search": {
+    "placeholder": "航路を描く...",
+    "noResults": "\"{{query}}\"の港は見つかりませんでした",
+    "exploreNews": "\"{{query}}\"のニュースを探索",
+    "region": "地域",
+    "country": "国"
+  },
+  "trending": {
+    "tradeWinds": "貿易風",
+    "ports": "港",
+    "saved": "保存済み（{{count}}）",
+    "toggleSaved": "保存した港を表示",
+    "world": "世界",
+    "technology": "テクノロジー",
+    "business": "ビジネス",
+    "health": "健康",
+    "sports": "スポーツ",
+    "science": "科学"
+  },
+  "app": {
+    "setSail": "出航",
+    "setSailTitle": "ランダムな目的地に出航",
+    "exportLog": "日誌をエクスポート",
+    "exportLogTitle": "航海日誌をダウンロード",
+    "chartYourCourse": "航路を描く",
+    "footer": "Caravels — 世界のニュースを航海する",
+    "chartModeOn": "モダンビューに切り替え",
+    "chartModeOff": "航海図に切り替え"
+  },
+  "error": {
+    "title": "問題が発生しました",
+    "message": "予期しないエラーが発生しました",
+    "reload": "ページを再読み込み"
+  },
+  "time": {
+    "justNow": "たった今",
+    "minutesAgo": "{{count}}分前",
+    "hoursAgo": "{{count}}時間前",
+    "daysAgo": "{{count}}日前"
+  },
+  "lang": {
+    "switch": "言語を変更"
+  }
+}

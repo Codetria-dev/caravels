@@ -1,0 +1,85 @@
+{
+  "globe": {
+    "loading": "Izando velas...",
+    "emptyTitle": "Trazando Corrientes Globales",
+    "emptySubtitle": "Zarpe para descubrir noticias de cada puerto de escala",
+    "currentPort": "Puerto Actual",
+    "localTime": "Hora local:",
+    "hint": "Arrastre para navegar • Rueda para zoom • Clic para descubrir"
+  },
+  "context": {
+    "shipsLog": "Bitácora",
+    "discovery": "Descubrimiento",
+    "intelligence": "Inteligencia",
+    "articles": "{{count}} artículos",
+    "article": "{{count}} artículo",
+    "fetching": "Buscando noticias para {{name}}...",
+    "noStories": "Aún no hay historias disponibles para esta ubicación.",
+    "tryAnother": "Pruebe otra región o tema",
+    "newsUnavailable": "Noticias no disponibles: {{error}}",
+    "liveUnavailable": "Noticias en vivo no disponibles. Mostrando inteligencia de fondo.",
+    "analysis": "Análisis",
+    "impact": "Impacto {{impact}}",
+    "readFull": "Leer historia completa",
+    "moreStories": "Más Historias",
+    "additionalHeadlines": "Titulares Adicionales",
+    "context": "Contexto",
+    "storyOngoing": "Esta historia es parte de los desarrollos en curso en la región. Siga las actualizaciones a medida que la situación evoluciona.",
+    "stayInformed": "Manténgase informado con actualizaciones seleccionadas de fuentes confiables en todo el mundo.",
+    "pagination": "{{current}} de {{total}}",
+    "firstPort": "Primer puerto",
+    "quickChart": "Carta rápida:",
+    "newArticle": "{{count}} artículo nuevo",
+    "newArticles": "{{count}} artículos nuevos",
+    "savePort": "Guardar este puerto",
+    "removePort": "Eliminar de puertos guardados",
+    "translate": "Traducir",
+    "translating": "Traduciendo...",
+    "close": "Cerrar panel",
+    "previous": "Anterior",
+    "next": "Siguiente"
+  },
+  "search": {
+    "placeholder": "Trace una ruta...",
+    "noResults": "No se encontró puerto para \"{{query}}\"",
+    "exploreNews": "Explorar noticias para \"{{query}}\"",
+    "region": "región",
+    "country": "país"
+  },
+  "trending": {
+    "tradeWinds": "Vientos Alisios",
+    "ports": "Puertos",
+    "saved": "Guardados ({{count}})",
+    "toggleSaved": "Alternar puertos guardados",
+    "world": "Mundo",
+    "technology": "Tecnología",
+    "business": "Negocios",
+    "health": "Salud",
+    "sports": "Deportes",
+    "science": "Ciencia"
+  },
+  "app": {
+    "setSail": "Zarpar",
+    "setSailTitle": "Zarpar a un destino aleatorio",
+    "exportLog": "Exportar Bitácora",
+    "exportLogTitle": "Descargar bitácora de viaje",
+    "chartYourCourse": "Trace su ruta",
+    "footer": "Caravels — Navegando las noticias del mundo",
+    "chartModeOn": "Cambiar a vista moderna",
+    "chartModeOff": "Cambiar a carta náutica"
+  },
+  "error": {
+    "title": "Algo salió mal",
+    "message": "Ocurrió un error inesperado",
+    "reload": "Recargar página"
+  },
+  "time": {
+    "justNow": "Justo ahora",
+    "minutesAgo": "{{count}}min atrás",
+    "hoursAgo": "{{count}}h atrás",
+    "daysAgo": "{{count}}d atrás"
+  },
+  "lang": {
+    "switch": "Cambiar idioma"
+  }
+}

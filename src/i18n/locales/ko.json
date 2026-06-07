@@ -1,0 +1,85 @@
+{
+  "globe": {
+    "loading": "돛을 올리는 중...",
+    "emptyTitle": "세계 해류 차트 작성",
+    "emptySubtitle": "각 기항지의 뉴스를 발견하기 위해 출항하세요",
+    "currentPort": "현재 항구",
+    "localTime": "현지 시간:",
+    "hint": "드래그로 탐색 • 스크롤로 확대 • 클릭으로 발견"
+  },
+  "context": {
+    "shipsLog": "항해 일지",
+    "discovery": "발견",
+    "intelligence": "인텔리전스",
+    "articles": "기사 {{count}}개",
+    "article": "기사 {{count}}개",
+    "fetching": "{{name}}의 뉴스를 가져오는 중...",
+    "noStories": "아직 이 위치에 대한 기사가 없습니다.",
+    "tryAnother": "다른 지역이나 주제를 시도해보세요",
+    "newsUnavailable": "뉴스를 사용할 수 없음: {{error}}",
+    "liveUnavailable": "실시간 뉴스를 사용할 수 없습니다. 백그라운드 인텔리전스를 표시합니다.",
+    "analysis": "분석",
+    "impact": "영향 {{impact}}",
+    "readFull": "전체 기사 읽기",
+    "moreStories": "더 많은 기사",
+    "additionalHeadlines": "추가 헤드라인",
+    "context": "맥락",
+    "storyOngoing": "이 기사는 지역의 진행 중인 발전 상황의 일부입니다. 상황이 전개됨에 따라 업데이트를 확인하세요.",
+    "stayInformed": "전 세계 신뢰할 수 있는 소스에서 선별된 업데이트로 정보를 받아보세요.",
+    "pagination": "{{total}}개 중 {{current}}개",
+    "firstPort": "첫 번째 항구",
+    "quickChart": "빠른 차트:",
+    "newArticle": "새 기사 {{count}}개",
+    "newArticles": "새 기사 {{count}}개",
+    "savePort": "이 항구 저장",
+    "removePort": "저장된 항구에서 제거",
+    "translate": "번역",
+    "translating": "번역 중...",
+    "close": "패널 닫기",
+    "previous": "이전",
+    "next": "다음"
+  },
+  "search": {
+    "placeholder": "항로를 그리세요...",
+    "noResults": "\"{{query}}\"에 대한 항구를 찾을 수 없습니다",
+    "exploreNews": "\"{{query}}\"에 대한 뉴스 탐색",
+    "region": "지역",
+    "country": "국가"
+  },
+  "trending": {
+    "tradeWinds": "무역풍",
+    "ports": "항구",
+    "saved": "저장됨 ({{count}})",
+    "toggleSaved": "저장된 항구 전환",
+    "world": "세계",
+    "technology": "기술",
+    "business": "비즈니스",
+    "health": "건강",
+    "sports": "스포츠",
+    "science": "과학"
+  },
+  "app": {
+    "setSail": "출항",
+    "setSailTitle": "무작위 목적지로 출항",
+    "exportLog": "일지 내보내기",
+    "exportLogTitle": "항해 일지 다운로드",
+    "chartYourCourse": "항로를 그리세요",
+    "footer": "Caravels — 세계 뉴스를 항해하다",
+    "chartModeOn": "현대적 보기로 전환",
+    "chartModeOff": "해도 보기로 전환"
+  },
+  "error": {
+    "title": "문제가 발생했습니다",
+    "message": "예기치 않은 오류가 발생했습니다",
+    "reload": "페이지 새로고침"
+  },
+  "time": {
+    "justNow": "방금",
+    "minutesAgo": "{{count}}분 전",
+    "hoursAgo": "{{count}}시간 전",
+    "daysAgo": "{{count}}일 전"
+  },
+  "lang": {
+    "switch": "언어 변경"
+  }
+}

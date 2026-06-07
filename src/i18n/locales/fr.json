@@ -1,0 +1,85 @@
+{
+  "globe": {
+    "loading": "Hissage des voiles...",
+    "emptyTitle": "Cartographie des Courants Mondiaux",
+    "emptySubtitle": "Appareillez pour découvrir les nouvelles de chaque port d'escale",
+    "currentPort": "Port Actuel",
+    "localTime": "Heure locale :",
+    "hint": "Faites glisser pour naviguer • Molette pour zoom • Cliquez pour découvrir"
+  },
+  "context": {
+    "shipsLog": "Journal de Bord",
+    "discovery": "Découverte",
+    "intelligence": "Renseignement",
+    "articles": "{{count}} articles",
+    "article": "{{count}} article",
+    "fetching": "Recherche d'actualités pour {{name}}...",
+    "noStories": "Aucune histoire disponible pour cet emplacement pour le moment.",
+    "tryAnother": "Essayez une autre région ou un autre sujet",
+    "newsUnavailable": "Actualités indisponibles : {{error}}",
+    "liveUnavailable": "Actualités en direct indisponibles. Affichage des renseignements de fond.",
+    "analysis": "Analyse",
+    "impact": "Impact {{impact}}",
+    "readFull": "Lire l'article complet",
+    "moreStories": "Plus d'Histoires",
+    "additionalHeadlines": "Titres Supplémentaires",
+    "context": "Contexte",
+    "storyOngoing": "Cette histoire fait partie des développements en cours dans la région. Suivez les mises à jour à mesure que la situation évolue.",
+    "stayInformed": "Restez informé avec des mises à jour sélectionnées provenant de sources fiables du monde entier.",
+    "pagination": "{{current}} sur {{total}}",
+    "firstPort": "Premier port",
+    "quickChart": "Carte rapide :",
+    "newArticle": "{{count}} nouvel article",
+    "newArticles": "{{count}} nouveaux articles",
+    "savePort": "Sauvegarder ce port",
+    "removePort": "Retirer des ports sauvegardés",
+    "translate": "Traduire",
+    "translating": "Traduction en cours...",
+    "close": "Fermer le panneau",
+    "previous": "Précédent",
+    "next": "Suivant"
+  },
+  "search": {
+    "placeholder": "Tracez une route...",
+    "noResults": "Aucun port trouvé pour \"{{query}}\"",
+    "exploreNews": "Explorer les actualités pour \"{{query}}\"",
+    "region": "région",
+    "country": "pays"
+  },
+  "trending": {
+    "tradeWinds": "Alizés",
+    "ports": "Ports",
+    "saved": "Sauvegardés ({{count}})",
+    "toggleSaved": "Afficher les ports sauvegardés",
+    "world": "Monde",
+    "technology": "Technologie",
+    "business": "Affaires",
+    "health": "Santé",
+    "sports": "Sports",
+    "science": "Science"
+  },
+  "app": {
+    "setSail": "Appareiller",
+    "setSailTitle": "Appareiller vers une destination aléatoire",
+    "exportLog": "Exporter le Journal",
+    "exportLogTitle": "Télécharger le journal de bord",
+    "chartYourCourse": "Tracez votre route",
+    "footer": "Caravels — Naviguer les actualités du monde",
+    "chartModeOn": "Passer à la vue moderne",
+    "chartModeOff": "Passer à la carte nautique"
+  },
+  "error": {
+    "title": "Une erreur s'est produite",
+    "message": "Une erreur inattendue s'est produite",
+    "reload": "Recharger la page"
+  },
+  "time": {
+    "justNow": "À l'instant",
+    "minutesAgo": "{{count}}min",
+    "hoursAgo": "{{count}}h",
+    "daysAgo": "{{count}}j"
+  },
+  "lang": {
+    "switch": "Changer de langue"
+  }
+}
