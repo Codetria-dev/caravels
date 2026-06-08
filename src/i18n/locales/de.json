@@ -81,5 +81,21 @@
   },
   "lang": {
     "switch": "Sprache ändern"
+  },
+  "auth": {
+    "signIn": "Anmelden",
+    "signUp": "Konto erstellen",
+    "signOut": "Abmelden",
+    "account": "Ihr Konto",
+    "signedIn": "Angemeldet",
+    "googleSignIn": "Mit Google fortfahren",
+    "or": "oder",
+    "emailPlaceholder": "E-Mail-Adresse",
+    "passwordPlaceholder": "Passwort",
+    "noAccount": "Kein Konto? Registrieren",
+    "hasAccount": "Bereits ein Konto? Anmelden",
+    "notConfigured": "Authentifizierung ist nicht konfiguriert.",
+    "configureEnv": "Setzen Sie VITE_SUPABASE_URL und VITE_SUPABASE_ANON_KEY in Ihrer .env-Datei.",
+    "loginButton": "Anmelden"
   }
 }

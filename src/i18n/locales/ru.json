@@ -81,5 +81,21 @@
   },
   "lang": {
     "switch": "Сменить язык"
+  },
+  "auth": {
+    "signIn": "Войти",
+    "signUp": "Создать аккаунт",
+    "signOut": "Выйти",
+    "account": "Ваш аккаунт",
+    "signedIn": "Выполнен вход",
+    "googleSignIn": "Продолжить с Google",
+    "or": "или",
+    "emailPlaceholder": "Email адрес",
+    "passwordPlaceholder": "Пароль",
+    "noAccount": "Нет аккаунта? Зарегистрироваться",
+    "hasAccount": "Уже есть аккаунт? Войти",
+    "notConfigured": "Аутентификация не настроена.",
+    "configureEnv": "Установите VITE_SUPABASE_URL и VITE_SUPABASE_ANON_KEY в файле .env.",
+    "loginButton": "Войти"
   }
 }

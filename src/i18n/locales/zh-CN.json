@@ -81,5 +81,21 @@
   },
   "lang": {
     "switch": "更改语言"
+  },
+  "auth": {
+    "signIn": "登录",
+    "signUp": "创建账户",
+    "signOut": "退出",
+    "account": "您的账户",
+    "signedIn": "已登录",
+    "googleSignIn": "使用 Google 继续",
+    "or": "或",
+    "emailPlaceholder": "邮箱地址",
+    "passwordPlaceholder": "密码",
+    "noAccount": "还没有账户？注册",
+    "hasAccount": "已有账户？登录",
+    "notConfigured": "认证未配置。",
+    "configureEnv": "请在 .env 文件中设置 VITE_SUPABASE_URL 和 VITE_SUPABASE_ANON_KEY。",
+    "loginButton": "登录"
   }
 }

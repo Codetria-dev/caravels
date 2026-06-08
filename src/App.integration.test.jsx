@@ -10,6 +10,25 @@ vi.mock('react-i18next', () => ({
   }),
 }));
 
+vi.mock('./contexts/AuthContext', () => ({
+  AuthProvider: ({ children }) => children,
+  useAuth: () => ({
+    user: null,
+    session: null,
+    loading: false,
+    signInWithGoogle: vi.fn(),
+    signInWithEmail: vi.fn(),
+    signUpWithEmail: vi.fn(),
+    signOut: vi.fn(),
+    isAuthenticated: false,
+    isConfigured: false,
+  }),
+}));
+
+vi.mock('./components/AuthModal', () => ({
+  default: () => null,
+}));
+
 vi.mock('./hooks/useMapData', () => ({
   useMapData: () => ({
     loading: false,

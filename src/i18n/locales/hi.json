@@ -81,5 +81,21 @@
   },
   "lang": {
     "switch": "भाषा बदलें"
+  },
+  "auth": {
+    "signIn": "साइन इन करें",
+    "signUp": "खाता बनाएं",
+    "signOut": "साइन आउट करें",
+    "account": "आपका खाता",
+    "signedIn": "साइन इन है",
+    "googleSignIn": "Google से जारी रखें",
+    "or": "या",
+    "emailPlaceholder": "ईमेल पता",
+    "passwordPlaceholder": "पासवर्ड",
+    "noAccount": "खाता नहीं है? साइन अप करें",
+    "hasAccount": "पहले से खाता है? साइन इन करें",
+    "notConfigured": "प्रमाणीकरण कॉन्फ़िगर नहीं है।",
+    "configureEnv": "अपनी .env फ़ाइल में VITE_SUPABASE_URL और VITE_SUPABASE_ANON_KEY सेट करें।",
+    "loginButton": "साइन इन करें"
   }
 }

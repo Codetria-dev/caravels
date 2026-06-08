@@ -81,5 +81,21 @@
   },
   "lang": {
     "switch": "言語を変更"
+  },
+  "auth": {
+    "signIn": "ログイン",
+    "signUp": "アカウント作成",
+    "signOut": "ログアウト",
+    "account": "アカウント",
+    "signedIn": "ログイン中",
+    "googleSignIn": "Googleで続ける",
+    "or": "または",
+    "emailPlaceholder": "メールアドレス",
+    "passwordPlaceholder": "パスワード",
+    "noAccount": "アカウントをお持ちでない方は登録",
+    "hasAccount": "すでにアカウントをお持ちの方はログイン",
+    "notConfigured": "認証が設定されていません。",
+    "configureEnv": ".envファイルにVITE_SUPABASE_URLとVITE_SUPABASE_ANON_KEYを設定してください。",
+    "loginButton": "ログイン"
   }
 }

@@ -5,19 +5,23 @@ import ContextPanel from './components/ContextPanel';
 import EnhancedSearchBar from './components/EnhancedSearchBar';
 import TrendingTopics from './components/TrendingTopics';
 import LanguageSwitcher from './components/LanguageSwitcher';
+import AuthModal from './components/AuthModal';
 import ErrorBoundary from './components/ErrorBoundary';
+import { AuthProvider, useAuth } from './contexts/AuthContext';
 import { useMapData } from './hooks/useMapData';
 import { addToVoyageHistory } from './utils/voyageUtils';
 import { getBookmarks, addBookmark, removeBookmark, isBookmarked } from './utils/bookmarksUtils';
 import { exportVoyageLog, downloadMarkdown } from './utils/exportUtils';
 import allMockEvents from './data/mockIntelligence';
 
-function App() {
+function AppShell() {
   const { t } = useTranslation();
+  const { user, signOut, isConfigured } = useAuth();
   const [selectedLocation, setSelectedLocation] = useState(null);
   const [voyageHistory, setVoyageHistory] = useState([]);
   const [chartMode, setChartMode] = useState(false);
   const [bookmarks, setBookmarks] = useState(getBookmarks);
+  const [authOpen, setAuthOpen] = useState(false);
   const { locations, countriesIndex, loading } = useMapData();
 
   const handleLocationSelect = (location) => {
@@ -128,7 +132,24 @@ function App() {
               />
             )}
           </div>
-          <div className="w-32 flex-shrink-0 flex justify-end items-center gap-1">
+          <div className="w-auto flex-shrink-0 flex justify-end items-center gap-1">
+            {isConfigured && (
+              <button
+                onClick={() => setAuthOpen(true)}
+                className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-slate-400 hover:text-slate-200 hover:bg-slate-800 transition-all duration-200 text-sm"
+                title={user ? user.email : t('auth.loginButton')}
+              >
+                {user ? (
+                  <span className="w-4 h-4 rounded-full bg-cyan-500/20 border border-cyan-500/30 flex items-center justify-center text-[10px] text-cyan-300">
+                    {user.email?.[0]?.toUpperCase() || '?'}
+                  </span>
+                ) : (
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                  </svg>
+                )}
+              </button>
+            )}
             <LanguageSwitcher />
             <button
               onClick={() => setChartMode((v) => !v)}
@@ -208,8 +229,18 @@ function App() {
             </div>
           </div>
         </footer>
+
+        <AuthModal open={authOpen} onClose={() => setAuthOpen(false)} />
       </div>
     </ErrorBoundary>
+  );
+}
+
+function App() {
+  return (
+    <AuthProvider>
+      <AppShell />
+    </AuthProvider>
   );
 }
 

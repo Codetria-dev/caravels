@@ -2,18 +2,18 @@ import { useState, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 
 const LANGUAGES = [
-  { code: 'en', native: 'English', flag: '🇬🇧' },
-  { code: 'pt', native: 'Português', flag: '🇧🇷' },
-  { code: 'es', native: 'Español', flag: '🇪🇸' },
-  { code: 'fr', native: 'Français', flag: '🇫🇷' },
-  { code: 'de', native: 'Deutsch', flag: '🇩🇪' },
-  { code: 'it', native: 'Italiano', flag: '🇮🇹' },
-  { code: 'ja', native: '日本語', flag: '🇯🇵' },
-  { code: 'ko', native: '한국어', flag: '🇰🇷' },
-  { code: 'zh-CN', native: '中文', flag: '🇨🇳' },
-  { code: 'ru', native: 'Русский', flag: '🇷🇺' },
-  { code: 'hi', native: 'हिन्दी', flag: '🇮🇳' },
-  { code: 'ar', native: 'العربية', flag: '🇸🇦' },
+  { code: 'en', native: 'English' },
+  { code: 'pt', native: 'Português' },
+  { code: 'es', native: 'Español' },
+  { code: 'fr', native: 'Français' },
+  { code: 'de', native: 'Deutsch' },
+  { code: 'it', native: 'Italiano' },
+  { code: 'ja', native: '日本語' },
+  { code: 'ko', native: '한국어' },
+  { code: 'zh-CN', native: '中文' },
+  { code: 'ru', native: 'Русский' },
+  { code: 'hi', native: 'हिन्दी' },
+  { code: 'ar', native: 'العربية' },
 ];
 
 function LanguageSwitcher() {
@@ -55,7 +55,6 @@ function LanguageSwitcher() {
         className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-slate-400 hover:text-slate-200 hover:bg-slate-800 transition-all duration-200 text-sm"
         title={t('lang.switch')}
       >
-        <span className="text-base">{current.flag}</span>
         <span className="hidden sm:inline">{current.code.toUpperCase()}</span>
         <svg className={`w-3 h-3 transition-transform ${open ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
           <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
@@ -78,7 +77,6 @@ function LanguageSwitcher() {
                     : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
                 }`}
               >
-                <span className="text-base">{lang.flag}</span>
                 <span className="font-light flex-1 text-left">{lang.native}</span>
                 {lang.code === i18n.language && (
                   <svg className="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>

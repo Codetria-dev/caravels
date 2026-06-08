@@ -81,5 +81,21 @@
   },
   "lang": {
     "switch": "تغيير اللغة"
+  },
+  "auth": {
+    "signIn": "تسجيل الدخول",
+    "signUp": "إنشاء حساب",
+    "signOut": "تسجيل الخروج",
+    "account": "حسابك",
+    "signedIn": "تم تسجيل الدخول",
+    "googleSignIn": "المتابعة مع Google",
+    "or": "أو",
+    "emailPlaceholder": "عنوان البريد الإلكتروني",
+    "passwordPlaceholder": "كلمة المرور",
+    "noAccount": "ليس لديك حساب؟ سجل",
+    "hasAccount": "لديك حساب بالفعل؟ سجل الدخول",
+    "notConfigured": "المصادقة غير مهيأة.",
+    "configureEnv": "قم بتعيين VITE_SUPABASE_URL و VITE_SUPABASE_ANON_KEY في ملف .env الخاص بك.",
+    "loginButton": "تسجيل الدخول"
   }
 }
