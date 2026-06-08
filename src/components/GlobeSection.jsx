@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { buildGlobeGeometries } from '../utils/geoGeometryBuilder';
 import { getLocalTime } from '../utils/timeUtils';
 
 const easeInOutCubic = (t) => (
@@ -115,6 +114,7 @@ function GlobeSection({
 
       // Load TopoJSON and render countries with proper triangulation
       try {
+        const { buildGlobeGeometries } = await import('../utils/geoGeometryBuilder');
         const { fillGeometries, lineGeometries } = await buildGlobeGeometries(THREE);
 
         if (disposed) {
