@@ -9,6 +9,8 @@
  * Uses in-memory cache with TTL to reduce redundant requests.
  */
 
+import { apiUrl } from './api.js';
+
 const CACHE_TTL = 900_000; // 15 minutes
 
 const cache = new Map();
@@ -44,7 +46,7 @@ function normalizeArticle(item) {
 
 /** Fetch from RSS proxy (free, no API key needed) */
 async function fetchRSS(query) {
-  const url = `/api/rss?q=${encodeURIComponent(query)}`;
+  const url = apiUrl(`/api/rss?q=${encodeURIComponent(query)}`);
   const res = await fetch(url);
   if (!res.ok) throw new Error('RSS fetch failed');
   const data = await res.json();
@@ -54,7 +56,7 @@ async function fetchRSS(query) {
 
 /** Fetch from GNews (needs GNEWS_API_KEY) */
 async function fetchGNews(query) {
-  const url = `/api/gnews?q=${encodeURIComponent(query)}`;
+  const url = apiUrl(`/api/gnews?q=${encodeURIComponent(query)}`);
   const res = await fetch(url);
   if (!res.ok) throw new Error('GNews fetch failed');
   const data = await res.json();
@@ -64,7 +66,7 @@ async function fetchGNews(query) {
 
 /** Fetch from NewsAPI (needs NEWS_API_KEY) */
 async function fetchNewsAPI(query) {
-  const url = `/api/news/everything?q=${encodeURIComponent(query)}&sortBy=publishedAt`;
+  const url = apiUrl(`/api/news/everything?q=${encodeURIComponent(query)}&sortBy=publishedAt`);
   const res = await fetch(url);
   if (!res.ok) throw new Error('NewsAPI fetch failed');
   const data = await res.json();

@@ -3,6 +3,8 @@
  * MyMemory is free (no key required) with ~1000 chars/day limit.
  */
 
+import { apiUrl } from './api.js';
+
 const LANG_MAP = {
   en: 'en',
   pt: 'pt',
@@ -27,7 +29,7 @@ export async function translateText(text, targetLang) {
 
   try {
     const res = await fetch(
-      `/api/translate?q=${encodeURIComponent(text)}&langpair=${encodeURIComponent(langpair)}`
+      apiUrl(`/api/translate?q=${encodeURIComponent(text)}&langpair=${encodeURIComponent(langpair)}`)
     );
     const data = await res.json();
     if (data.translatedText && data.translatedText !== text) {
