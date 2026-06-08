@@ -498,6 +498,15 @@ function GlobeSection({
       };
       let selectedCountryMesh = null;
 
+      // Smooth zoom state
+      let zoomTarget = camera.position.z;
+      let zoomAnchor = null; // world-space point under cursor for zoom-to-cursor
+
+      const ZOOM_MIN = 140;
+      const ZOOM_MAX = 500;
+      const ZOOM_SMOOTH = 0.10;
+      const ZOOM_STEP = 18;
+
       const selectCountry = (countryMesh, countryData) => {
         // Reset previous country selection
         if (selectedCountryMesh && selectedCountryMesh !== countryMesh) {
@@ -641,9 +650,43 @@ function GlobeSection({
 
       const onWheel = (e) => {
         e.preventDefault();
-        const zoomSpeed = 10;
-        camera.position.z += e.deltaY > 0 ? zoomSpeed : -zoomSpeed;
-        camera.position.z = Math.max(180, Math.min(450, camera.position.z));
+
+        // Adjust zoom target
+        const step = e.deltaY > 0 ? ZOOM_STEP : -ZOOM_STEP;
+        zoomTarget = Math.max(ZOOM_MIN, Math.min(ZOOM_MAX, zoomTarget + step));
+
+        // Zoom-to-cursor: find world point under cursor on globe sphere
+        const rect = canvas.getBoundingClientRect();
+        const ndcX = ((e.clientX - rect.left) / rect.width) * 2 - 1;
+        const ndcY = -((e.clientY - rect.top) / rect.height) * 2 + 1;
+
+        const raycaster = new THREE.Raycaster();
+        raycaster.setFromCamera(new THREE.Vector2(ndcX, ndcY), camera);
+
+        // Manual ray-sphere intersection with globe surface
+        const origin = raycaster.ray.origin;
+        const dir = raycaster.ray.direction;
+        const L = origin.clone(); // origin - center (center is 0,0,0)
+        const a = dir.dot(dir);
+        const b = 2 * L.dot(dir);
+        const c = L.dot(L) - globeRadius * globeRadius;
+        const disc = b * b - 4 * a * c;
+
+        if (disc >= 0) {
+          const t = (-b - Math.sqrt(disc)) / (2 * a);
+          if (t > 0) {
+            zoomAnchor = dir.clone().multiplyScalar(t).add(origin);
+          } else {
+            // Try the far intersection
+            const t2 = (-b + Math.sqrt(disc)) / (2 * a);
+            zoomAnchor = t2 > 0 ? dir.clone().multiplyScalar(t2).add(origin) : null;
+          }
+        } else {
+          // Ray misses globe — zoom toward center
+          zoomAnchor = null;
+        }
+
+        lastInteractionTime = Date.now();
       };
 
       let clickStart = { x: 0, y: 0 };
@@ -722,8 +765,8 @@ function GlobeSection({
           const currentDist = Math.sqrt(dx * dx + dy * dy);
           if (touchStartDist > 0) {
             const delta = currentDist - touchStartDist;
-            camera.position.z += delta > 0 ? 5 : -5;
-            camera.position.z = Math.max(180, Math.min(450, camera.position.z));
+            zoomTarget = Math.max(ZOOM_MIN, Math.min(ZOOM_MAX, zoomTarget + (delta > 0 ? ZOOM_STEP : -ZOOM_STEP)));
+            zoomAnchor = null; // no anchor for pinch
             touchStartDist = currentDist;
           }
           e.preventDefault();
@@ -779,6 +822,31 @@ function GlobeSection({
 
           if (progress >= 1) {
             sailingAnimation.active = false;
+            zoomTarget = camera.position.length();
+          }
+        }
+
+        // Smooth zoom interpolation
+        if (Math.abs(camera.position.length() - zoomTarget) > 0.05) {
+          const currentDist = camera.position.length();
+          const newDist = currentDist + (zoomTarget - currentDist) * ZOOM_SMOOTH;
+          const cameraDir = camera.position.clone().normalize();
+
+          // Zoom toward cursor anchor if available
+          if (zoomAnchor) {
+            // Calculate new camera position: move along camera direction,
+            // then nudge toward anchor point proportionally to zoom change
+            const anchorDir = zoomAnchor.clone().normalize();
+            const distRatio = newDist / currentDist;
+            // Blend: mostly along camera direction, slightly toward anchor
+            const blend = 0.3; // how much to favor anchor direction
+            const targetDir = cameraDir.clone().multiplyScalar(1 - blend)
+              .add(anchorDir.clone().multiplyScalar(blend))
+              .normalize();
+            camera.position.copy(targetDir.multiplyScalar(newDist));
+          } else {
+            // Simple zoom along current camera direction
+            camera.position.copy(cameraDir.multiplyScalar(newDist));
           }
         }
 
