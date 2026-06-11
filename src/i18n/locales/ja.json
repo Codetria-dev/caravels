@@ -16,7 +16,6 @@
     "fetching": "{{name}}のニュースを取得中...",
     "noStories": "この場所の記事はまだありません。",
     "tryAnother": "別の地域またはトピックをお試しください",
-    "newsUnavailable": "ニュースを利用できません：{{error}}",
     "liveUnavailable": "ライブニュースは利用できません。背景情報を表示しています。",
     "analysis": "分析",
     "impact": "影響度 {{impact}}",
@@ -43,8 +42,7 @@
     "placeholder": "航路を描く...",
     "noResults": "\"{{query}}\"の港は見つかりませんでした",
     "exploreNews": "\"{{query}}\"のニュースを探索",
-    "region": "地域",
-    "country": "国"
+    "region": "地域"
   },
   "trending": {
     "tradeWinds": "貿易風",
@@ -62,7 +60,6 @@
     "setSail": "出航",
     "setSailTitle": "ランダムな目的地に出航",
     "exportLog": "日誌をエクスポート",
-    "exportLogTitle": "航海日誌をダウンロード",
     "chartYourCourse": "航路を描く",
     "footer": "Caravels — 世界のニュースを航海する",
     "chartModeOn": "モダンビューに切り替え",

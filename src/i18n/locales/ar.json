@@ -16,7 +16,6 @@
     "fetching": "جاري جلب الأخبار لـ {{name}}...",
     "noStories": "لا توجد قصص متاحة لهذا الموقع بعد.",
     "tryAnother": "جرب منطقة أو موضوعًا آخر",
-    "newsUnavailable": "الأخبار غير متاحة: {{error}}",
     "liveUnavailable": "الأخبار المباشرة غير متاحة. عرض المعلومات الاستخباراتية الأساسية.",
     "analysis": "تحليل",
     "impact": "تأثير {{impact}}",
@@ -43,8 +42,7 @@
     "placeholder": "حدد المسار...",
     "noResults": "لم يتم العثور على ميناء لـ \"{{query}}\"",
     "exploreNews": "استكشاف الأخبار لـ \"{{query}}\"",
-    "region": "منطقة",
-    "country": "دولة"
+    "region": "منطقة"
   },
   "trending": {
     "tradeWinds": "الرياح التجارية",
@@ -62,7 +60,6 @@
     "setSail": "أبحر",
     "setSailTitle": "أبحر إلى وجهة عشوائية",
     "exportLog": "تصدير السجل",
-    "exportLogTitle": "تنزيل سجل الرحلة",
     "chartYourCourse": "حدد مسارك",
     "footer": "Caravels — الإبحار في أخبار العالم",
     "chartModeOn": "التبديل إلى العرض الحديث",

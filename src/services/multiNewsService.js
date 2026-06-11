@@ -124,5 +124,7 @@ export async function fetchNews(query) {
   }
 
   // No results from any provider
-  throw new Error(`No news found for "${query}". ${errors.join('; ')}`);
+  const errMsg = new Error(`No news found for "${query}".`);
+  errMsg.details = errors.join('; ');
+  throw errMsg;
 }

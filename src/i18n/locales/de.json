@@ -16,7 +16,6 @@
     "fetching": "Nachrichten werden für {{name}} abgerufen...",
     "noStories": "Noch keine Geschichten für diesen Ort verfügbar.",
     "tryAnother": "Versuchen Sie eine andere Region oder ein anderes Thema",
-    "newsUnavailable": "Nachrichten nicht verfügbar: {{error}}",
     "liveUnavailable": "Live-Nachrichten nicht verfügbar. Zeige Hintergrundinformationen.",
     "analysis": "Analyse",
     "impact": "Auswirkung {{impact}}",
@@ -43,8 +42,7 @@
     "placeholder": "Kurs festlegen...",
     "noResults": "Kein Hafen gefunden für \"{{query}}\"",
     "exploreNews": "Nachrichten für \"{{query}}\" erkunden",
-    "region": "Region",
-    "country": "Land"
+    "region": "Region"
   },
   "trending": {
     "tradeWinds": "Passatwinde",
@@ -62,7 +60,6 @@
     "setSail": "In See stechen",
     "setSailTitle": "Zu einem zufälligen Ziel aufbrechen",
     "exportLog": "Logbuch exportieren",
-    "exportLogTitle": "Reiselogbuch herunterladen",
     "chartYourCourse": "Bestimmen Sie Ihren Kurs",
     "footer": "Caravels — Die Nachrichten der Welt navigieren",
     "chartModeOn": "Zur modernen Ansicht wechseln",

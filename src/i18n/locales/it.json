@@ -16,7 +16,6 @@
     "fetching": "Recupero notizie per {{name}}...",
     "noStories": "Nessuna storia disponibile per questa località.",
     "tryAnother": "Prova un'altra regione o argomento",
-    "newsUnavailable": "Notizie non disponibili: {{error}}",
     "liveUnavailable": "Notizie in diretta non disponibili. Mostrando intelligence di base.",
     "analysis": "Analisi",
     "impact": "Impatto {{impact}}",
@@ -43,8 +42,7 @@
     "placeholder": "Traccia una rotta...",
     "noResults": "Nessun porto trovato per \"{{query}}\"",
     "exploreNews": "Esplora notizie per \"{{query}}\"",
-    "region": "regione",
-    "country": "paese"
+    "region": "regione"
   },
   "trending": {
     "tradeWinds": "Alisei",
@@ -62,7 +60,6 @@
     "setSail": "Salpare",
     "setSailTitle": "Salpare verso una destinazione casuale",
     "exportLog": "Esporta Diario",
-    "exportLogTitle": "Scarica il diario di bordo",
     "chartYourCourse": "Traccia la tua rotta",
     "footer": "Caravels — Navigando le notizie del mondo",
     "chartModeOn": "Passa alla vista moderna",

@@ -78,7 +78,9 @@ function ContextPanel({ selectedLocation, voyageHistory = [], onVoyageNavigate, 
         }
       } catch (error) {
         if (cancelled) return;
-        setNewsError(error.message);
+        // Log technical details to console, store just the query name to signal fetch failed
+        console.warn(`[News] ${error.message}`, error.details || '');
+        setNewsError(selectedLocation?.name || t('context.noStories'));
         setNewsArticles([]);
         setUseNewsData(false);
       } finally {
@@ -320,9 +322,7 @@ function ContextPanel({ selectedLocation, voyageHistory = [], onVoyageNavigate, 
         <div className="flex-1 flex items-center justify-center px-8">
           <div className="text-center space-y-3 animate-fade-in">
             <div className="text-sm text-slate-400 font-light">
-              {newsError
-                ? t('context.newsUnavailable', { error: newsError })
-                : t('context.noStories')}
+              {t('context.noStories')}
             </div>
             <div className="text-xs text-slate-500">{t('context.tryAnother')}</div>
           </div>

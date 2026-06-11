@@ -16,7 +16,6 @@
     "fetching": "Fetching news for {{name}}...",
     "noStories": "No stories available for this location yet.",
     "tryAnother": "Try another region or topic",
-    "newsUnavailable": "News unavailable: {{error}}",
     "liveUnavailable": "Live news unavailable. Showing background intelligence instead.",
     "analysis": "Analysis",
     "impact": "{{impact}} impact",
@@ -43,8 +42,7 @@
     "placeholder": "Chart a course...",
     "noResults": "No port found for \"{{query}}\"",
     "exploreNews": "Explore news for \"{{query}}\"",
-    "region": "region",
-    "country": "country"
+    "region": "region"
   },
   "trending": {
     "tradeWinds": "Trade Winds",
@@ -62,7 +60,6 @@
     "setSail": "Set Sail",
     "setSailTitle": "Set sail for a random destination",
     "exportLog": "Export Log",
-    "exportLogTitle": "Download voyage log",
     "chartYourCourse": "Chart your course",
     "footer": "Caravels — Navigating the world's news",
     "chartModeOn": "Switch to modern view",

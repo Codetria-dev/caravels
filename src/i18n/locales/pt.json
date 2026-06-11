@@ -16,7 +16,6 @@
     "fetching": "Buscando notícias para {{name}}...",
     "noStories": "Nenhuma história disponível para este local ainda.",
     "tryAnother": "Tente outra região ou tópico",
-    "newsUnavailable": "Notícias indisponíveis: {{error}}",
     "liveUnavailable": "Notícias ao vivo indisponíveis. Mostrando inteligência de fundo.",
     "analysis": "Análise",
     "impact": "Impacto {{impact}}",
@@ -43,8 +42,7 @@
     "placeholder": "Trace uma rota...",
     "noResults": "Nenhum porto encontrado para \"{{query}}\"",
     "exploreNews": "Explorar notícias para \"{{query}}\"",
-    "region": "região",
-    "country": "país"
+    "region": "região"
   },
   "trending": {
     "tradeWinds": "Ventos Alísios",
@@ -62,7 +60,6 @@
     "setSail": "Zarpar",
     "setSailTitle": "Zarpar para um destino aleatório",
     "exportLog": "Exportar Diário",
-    "exportLogTitle": "Baixar diário de bordo",
     "chartYourCourse": "Trace sua rota",
     "footer": "Caravels — Navegando as notícias do mundo",
     "chartModeOn": "Mudar para visual moderno",

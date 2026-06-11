@@ -16,7 +16,6 @@
     "fetching": "正在获取 {{name}} 的新闻...",
     "noStories": "此位置暂无可用报道。",
     "tryAnother": "尝试其他地区或主题",
-    "newsUnavailable": "新闻不可用：{{error}}",
     "liveUnavailable": "实时新闻不可用。正在显示背景情报。",
     "analysis": "分析",
     "impact": "{{impact}} 影响",
@@ -43,8 +42,7 @@
     "placeholder": "规划航线...",
     "noResults": "未找到 \"{{query}}\" 的港口",
     "exploreNews": "探索 \"{{query}}\" 的新闻",
-    "region": "地区",
-    "country": "国家"
+    "region": "地区"
   },
   "trending": {
     "tradeWinds": "信风",
@@ -62,7 +60,6 @@
     "setSail": "起航",
     "setSailTitle": "起航前往随机目的地",
     "exportLog": "导出日志",
-    "exportLogTitle": "下载航海日志",
     "chartYourCourse": "规划您的航线",
     "footer": "Caravels — 航行世界新闻",
     "chartModeOn": "切换到现代视图",

@@ -16,7 +16,6 @@
     "fetching": "Recherche d'actualités pour {{name}}...",
     "noStories": "Aucune histoire disponible pour cet emplacement pour le moment.",
     "tryAnother": "Essayez une autre région ou un autre sujet",
-    "newsUnavailable": "Actualités indisponibles : {{error}}",
     "liveUnavailable": "Actualités en direct indisponibles. Affichage des renseignements de fond.",
     "analysis": "Analyse",
     "impact": "Impact {{impact}}",
@@ -43,8 +42,7 @@
     "placeholder": "Tracez une route...",
     "noResults": "Aucun port trouvé pour \"{{query}}\"",
     "exploreNews": "Explorer les actualités pour \"{{query}}\"",
-    "region": "région",
-    "country": "pays"
+    "region": "région"
   },
   "trending": {
     "tradeWinds": "Alizés",
@@ -62,7 +60,6 @@
     "setSail": "Appareiller",
     "setSailTitle": "Appareiller vers une destination aléatoire",
     "exportLog": "Exporter le Journal",
-    "exportLogTitle": "Télécharger le journal de bord",
     "chartYourCourse": "Tracez votre route",
     "footer": "Caravels — Naviguer les actualités du monde",
     "chartModeOn": "Passer à la vue moderne",
